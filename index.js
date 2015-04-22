@@ -120,7 +120,7 @@ module.exports = function(robot) {
         if(!msg.message) return next("No token");
         var sid = uuid.v1();
         auth_sessions[sid] = { onComplete: next, user_id: u.name };
-        var reply = "Hey, I need you to log in before I can see your calendar: " + process.env.HUBOT_URL + "/google/auth?token=" + sid;
+        var reply = "Hey, I need you to log in before I can do that: " + process.env.HUBOT_URL + "/google/auth?token=" + sid;
         robot.dm(u, reply);
       }
       else {
