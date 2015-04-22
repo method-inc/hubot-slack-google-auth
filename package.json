@@ -16,7 +16,7 @@
     "passport-google-oauth": "0.1.5",
     "express": ">= 3.0.0 < 4.0.0",
     "node-uuid": "1.4.2",
-    "googleapis": "1.0.21",
+    "googleapis": "1.0.21"
   },
   "keywords": [
     "hubot",
@@ -26,6 +26,6 @@
     "google",
     "oauth"
   ],
-  "author": "David Becher",
+  "author": "David Becher <david@skookum.com>",
   "license": "MIT"
 }
