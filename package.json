@@ -1,0 +1,31 @@
+{
+  "name": "hubot-slack-google-auth",
+  "version": "0.1.0",
+  "description": "Allows slack users to authenticate to the Google APIs using OAuth 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skookum/hubot-slack-google-auth"
+  },
+  "dependencies": {
+    "underscore": "1.7.0",
+    "passport": "0.2.1",
+    "passport-google-oauth": "0.1.5",
+    "express": ">= 3.0.0 < 4.0.0",
+    "node-uuid": "1.4.2",
+    "googleapis": "1.0.21",
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "google",
+    "calendar",
+    "google",
+    "oauth"
+  ],
+  "author": "David Becher",
+  "license": "MIT"
+}
