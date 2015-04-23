@@ -22,8 +22,6 @@
     "hubot",
     "hubot-scripts",
     "google",
-    "calendar",
-    "google",
     "oauth"
   ],
   "author": "David Becher <david@skookum.com>",
