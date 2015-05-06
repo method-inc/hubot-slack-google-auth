@@ -121,7 +121,7 @@ module.exports = function(robot) {
         var sid = uuid.v1();
         auth_sessions[sid] = { onComplete: next, user_id: u.name };
         var reply = "Hey, I need you to log in before I can do that: " + process.env.HUBOT_URL + "/google/auth?token=" + sid;
-        robot.dm(u, reply);
+        robot.send(u, reply);
       }
       else {
         var client = create_oauth_client( token_user.google_access_token, token_user.google_refresh_token );
